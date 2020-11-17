@@ -92,6 +92,10 @@
                                 "description": "The fully qualified name of your main class (usually your filename in PascalCase postfixed with Kt).",
                                 "default": "path.to.your.MainClassKt"
                             },
+                            "args": {
+                                "type": "array",
+                                "default": []
+                            },
                             "vmArguments": {
                                 "type": "string",
                                 "description": "The JVM arguments if needed by your project (usually -Dfoo=bar).",
